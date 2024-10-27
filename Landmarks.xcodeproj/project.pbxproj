@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7D3B6D802CCBA64C00D40575 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B6D7F2CCBA64C00D40575 /* ContentView.swift */; };
+		7D3B6DB02CCBCCBD00D40575 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B6DAF2CCBCCBD00D40575 /* CircleImage.swift */; };
+		7D3B6DB22CCBCE3500D40575 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B6DB12CCBCE3500D40575 /* MapView.swift */; };
+		7D3B6DB42CCBD40800D40575 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D3B6DB32CCBD40800D40575 /* landmarkData.json */; };
+		7D3B6DB62CCBD44D00D40575 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B6DB52CCBD44D00D40575 /* Landmark.swift */; };
+		7D3B6DB82CCBD66A00D40575 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B6DB72CCBD66A00D40575 /* ModelData.swift */; };
+		7D3B6DD82CCD38DE00D40575 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3B6DD72CCD38DE00D40575 /* FavoriteButton.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7D3B6D8C2CCBA64E00D40575 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,24 +35,62 @@
 
 /* Begin PBXFileReference section */
 		7D3B6D7A2CCBA64C00D40575 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3B6D7F2CCBA64C00D40575 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D3B6D8B2CCBA64E00D40575 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3B6D952CCBA64E00D40575 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3B6DAF2CCBCCBD00D40575 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7D3B6DB12CCBCE3500D40575 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7D3B6DB32CCBD40800D40575 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		7D3B6DB52CCBD44D00D40575 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		7D3B6DB72CCBD66A00D40575 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		7D3B6DD72CCD38DE00D40575 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7D3B6DCE2CCBD76B00D40575 /* Exceptions for "LandmarksTests" folder in "LandmarksTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LandmarksTests.swift,
+			);
+			target = 7D3B6D8A2CCBA64E00D40575 /* LandmarksTests */;
+		};
+		7D3B6DCF2CCBD76B00D40575 /* Exceptions for "LandmarksTests" folder in "LandmarksUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LandmarksTests.swift,
+			);
+			target = 7D3B6D942CCBA64E00D40575 /* LandmarksUITests */;
+		};
+		7D3B6DDA2CCD3A4300D40575 /* Exceptions for "Landmarks" folder in "LandmarksUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LandmarkRow.swift,
+			);
+			target = 7D3B6D942CCBA64E00D40575 /* LandmarksUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7D3B6D7C2CCBA64C00D40575 /* Landmarks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7D3B6DDA2CCD3A4300D40575 /* Exceptions for "Landmarks" folder in "LandmarksUITests" target */,
+			);
 			path = Landmarks;
-			sourceTree = "<group>";
-		};
-		7D3B6D8E2CCBA64E00D40575 /* LandmarksTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LandmarksTests;
 			sourceTree = "<group>";
 		};
 		7D3B6D982CCBA64E00D40575 /* LandmarksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		7D3B6DCC2CCBD76B00D40575 /* LandmarksTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7D3B6DCE2CCBD76B00D40575 /* Exceptions for "LandmarksTests" folder in "LandmarksTests" target */,
+				7D3B6DCF2CCBD76B00D40575 /* Exceptions for "LandmarksTests" folder in "LandmarksUITests" target */,
+			);
+			path = LandmarksTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +123,14 @@
 		7D3B6D712CCBA64C00D40575 = {
 			isa = PBXGroup;
 			children = (
+				7D3B6DD92CCD3A0400D40575 /* Helpers */,
 				7D3B6D7C2CCBA64C00D40575 /* Landmarks */,
-				7D3B6D8E2CCBA64E00D40575 /* LandmarksTests */,
+				7D3B6DBB2CCBD73A00D40575 /* Resources */,
+				7D3B6DB92CCBD6AF00D40575 /* Views */,
+				7D3B6DBA2CCBD6EA00D40575 /* Model */,
 				7D3B6D982CCBA64E00D40575 /* LandmarksUITests */,
 				7D3B6D7B2CCBA64C00D40575 /* Products */,
+				7D3B6DCC2CCBD76B00D40575 /* LandmarksTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +142,41 @@
 				7D3B6D952CCBA64E00D40575 /* LandmarksUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7D3B6DB92CCBD6AF00D40575 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D3B6D7F2CCBA64C00D40575 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D3B6DBA2CCBD6EA00D40575 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D3B6DB52CCBD44D00D40575 /* Landmark.swift */,
+				7D3B6DB72CCBD66A00D40575 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D3B6DBB2CCBD73A00D40575 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D3B6DB32CCBD40800D40575 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D3B6DD92CCD3A0400D40575 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7D3B6DB12CCBCE3500D40575 /* MapView.swift */,
+				7D3B6DAF2CCBCCBD00D40575 /* CircleImage.swift */,
+				7D3B6DD72CCD38DE00D40575 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +217,6 @@
 			dependencies = (
 				7D3B6D8D2CCBA64E00D40575 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				7D3B6D8E2CCBA64E00D40575 /* LandmarksTests */,
-			);
 			name = LandmarksTests;
 			packageProductDependencies = (
 			);
@@ -155,6 +239,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7D3B6D982CCBA64E00D40575 /* LandmarksUITests */,
+				7D3B6DCC2CCBD76B00D40575 /* LandmarksTests */,
 			);
 			name = LandmarksUITests;
 			packageProductDependencies = (
@@ -212,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3B6DB42CCBD40800D40575 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +322,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3B6D802CCBA64C00D40575 /* ContentView.swift in Sources */,
+				7D3B6DB22CCBCE3500D40575 /* MapView.swift in Sources */,
+				7D3B6DD82CCD38DE00D40575 /* FavoriteButton.swift in Sources */,
+				7D3B6DB02CCBCCBD00D40575 /* CircleImage.swift in Sources */,
+				7D3B6DB62CCBD44D00D40575 /* Landmark.swift in Sources */,
+				7D3B6DB82CCBD66A00D40575 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
